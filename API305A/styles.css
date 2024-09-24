@@ -1,0 +1,114 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+}
+
+.progress-bar-top {
+    background-color: #007bff;
+    height: 5px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input#breedSearch {
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+input#breedSearch:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img-bottom img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+#favoritesGrid {
+    margin-top: 40px;
+}
+
+.fav-card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 0 0 100%; 
+        max-width: 100%;
+    }
+}
